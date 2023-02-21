@@ -1,3 +1,5 @@
+let HTTP_PORT = process.env.PORT || 8080;
+
 
 const express = require("express");
 const bodyParser = require("body-parser");
